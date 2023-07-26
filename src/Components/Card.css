@@ -1,0 +1,44 @@
+.card {
+    border: 2px solid black;
+    width: 400px;
+    height: 440px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px grey;
+    background: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.card:hover {
+    box-shadow: 3px 3px 10px darkslateblue;
+    transform: scale(1.03);
+}
+
+#image {
+    width: 375px;
+    height: 240px;
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+#name {
+    color: darkblue;
+    margin-top: 5px;
+    text-decoration: underline lightcoral;
+    text-underline-offset: 4px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#cuisines {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cost {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cost > a:hover {
+    color:darkorange;
+    font-style: italic;
+}
